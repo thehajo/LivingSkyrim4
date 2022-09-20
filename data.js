@@ -146,7 +146,7 @@
           name: 'Dark Oath',
 		  levels: 2,
           desc: ['Summoned creatures last 50% longer.','Summoned creatures last twice as long.'],
-          req: [20],
+          req: [20,60],
           pos: [-60, -15],
           deps: [0],
 		}, {
@@ -154,7 +154,7 @@
 		  levels: 2,
           desc: ['Summoned creatures gain 150 Armor Rating.','Summoned creatures gain 300 Armor Rating.'],
           req: [30,80],
-          pos: [-81, -53],
+          pos: [-81, -56],
           deps: [1],
 		}, {
           name: 'Ritual of Power',
@@ -181,7 +181,7 @@
 		  levels: 2,
           desc: ['Reanimated zombies last five times longer.','Reanimated zombies last until killed.'],
           req: [30,90],
-          pos: [-52, -53],
+          pos: [-52, -50],
           deps: [5],
 		}, {
           name: 'Necropotence',
@@ -1095,7 +1095,7 @@
 		}, {
           name: 'Second Wind',
           desc: ['Your Stamina regenerates twice as fast when you fall below half Stamina while wearing three pieces of light armor.'],
-          req: [90],
+          req: [100],
           pos: [-43, -110],
           deps: [2],
 		}, {
