@@ -149,7 +149,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
   activeData = function() {
     var activeLevel, bitArray, i, j, maxLevels, perk, perkTree, _i, _j, _len, _len2, _ref;
-    bitArray = new BitArray(352);
+    bitArray = new BitArray(320);
     i = 0;
     for (_i = 0, _len = perkTrees.length; _i < _len; _i++) {
       perkTree = perkTrees[_i];
@@ -170,7 +170,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   readActiveData = function(str) {
     var bitArray, i, j, maxLevels, perk, perkTree, _i, _len, _results;
     activePerkLevels = {};
-    bitArray = new BitArray(352);
+    bitArray = new BitArray(320);
     bitArray.parse(str);
     i = 0;
     _results = [];
